@@ -14,9 +14,11 @@ class Square:
             return True
         else:
             return False
-        
-
-    
+            """
+        if self.square_side>0:
+            return True
+        else:
+            return False
     def area(self) -> float:
         """
         This method finds the area of the square.
