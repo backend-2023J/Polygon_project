@@ -11,7 +11,7 @@ class Square:
             bool: This method checks if the square is valid.
         """
         return self.square_side>0
-    
+
     def area(self) -> float:
         """
         This method finds the area of the square.
